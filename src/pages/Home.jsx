@@ -222,7 +222,6 @@ function Home() {
             <SpecialProduct />
             <SpecialProduct />
             <SpecialProduct />
-            
           </div>
         </div>
       </section>
@@ -235,7 +234,6 @@ function Home() {
                   src="images/famous-1.jpg"
                   alt="famous"
                   className="img-fluid"
-
                 />
                 <div className="famous-content position-absolute">
                   <h5>Big Screen</h5>
@@ -341,10 +339,20 @@ function Home() {
             <div className="col-12">
               <h4 className="section-heading">Our Latest Blogs</h4>
             </div>
-            <BlogCard />
-            <BlogCard />
-            <BlogCard />
-            <BlogCard />
+          </div>
+          <div className="row">
+            <div className="col-3">
+              <BlogCard />
+            </div>
+            <div className="col-3">
+              <BlogCard />
+            </div>
+            <div className="col-3">
+              <BlogCard />
+            </div>
+            <div className="col-3">
+              <BlogCard />
+            </div>
           </div>
         </div>
       </section>

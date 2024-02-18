@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import OurStore from './components/OurStore';
+import BlogPage from './pages/BlogPage';
 
 function App() {
   return (
@@ -13,10 +14,12 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
-            <Route index element={<Home />} />  
-            <Route path='about' element={<About/>} />
-            <Route path='contact' element={<Contact/>} />  
-            <Route path='ourstore' element={<OurStore/>} />  
+            <Route index element={<Home />} />
+            <Route path='about' element={<About />} />
+            <Route path='contact' element={<Contact />} />
+            <Route path='ourstore' element={<OurStore />} />
+            <Route path='blogs' element={<BlogPage />} />
+
 
 
           </Route>
