@@ -12,7 +12,7 @@ function Home() {
         <div className="container-xxl">
           <div className="row">
             <div className="col-6">
-              <div className="main-banner position-relative p-3">
+              <div className="main-banner position-relative p-1">
                 <img
                   src="images/main-banner-1.jpg"
                   className="img-fluid rounded-3"
@@ -27,7 +27,7 @@ function Home() {
               </div>
             </div>
             <div className="col-6">
-              <div className="d-flex flex-wrap gap-6 justify-content-between align-items-center">
+              <div className="d-flex flex-wrap gap-10 justify-content-between align-items-center">
                 <div className="small-banner position-relative p-1">
                   <img
                     src="images/catbanner-01.jpg"
@@ -222,9 +222,88 @@ function Home() {
             <SpecialProduct />
             <SpecialProduct />
             <SpecialProduct />
+            
           </div>
         </div>
       </section>
+      <section className="famous-wrapper py-5 home-wrapper-2 ">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <img
+                  src="images/famous-1.jpg"
+                  alt="famous"
+                  className="img-fluid"
+
+                />
+                <div className="famous-content position-absolute">
+                  <h5>Big Screen</h5>
+                  <h6>Smart Watch Series-7</h6>
+                  <p>From 120$</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <img
+                  src="images/catbanner-01.jpg"
+                  alt="famous"
+                  className="img-fluid"
+                />
+                <div className="famous-content position-absolute">
+                  <h5 className="text-dark">Studio Display</h5>
+                  <h6 className="text-dark">600 nits</h6>
+                  <p className="text-dark">27-inch 5k display</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <img
+                  src="images/catbanner-01.jpg"
+                  alt="famous"
+                  className="img-fluid"
+                />
+                <div className="famous-content position-absolute">
+                  <h5 className="text-dark">Studio Display</h5>
+                  <h6 className="text-dark">600 nits</h6>
+                  <p className="text-dark">27-inch 5k display</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <img
+                  src="images/catbanner-01.jpg"
+                  alt="famous"
+                  className="img-fluid"
+                />
+                <div className="famous-content position-absolute">
+                  <h5 className="text-dark">Studio Display</h5>
+                  <h6 className="text-dark">600 nits</h6>
+                  <p className="text-dark">27-inch 5k display</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Start */}
+      <section className="popular-wrapper py-5 home-wrapper-2">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <h4 className="section-heading">Our Popular Products</h4>
+            </div>
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+          </div>
+        </div>
+      </section>
+      {/* End */}
       <section className="marque-wrapper py-5">
         <div className="container-xxl">
           <div className="row">
