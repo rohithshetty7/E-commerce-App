@@ -8,6 +8,11 @@ import Contact from './pages/Contact';
 import OurStore from './components/OurStore';
 import BlogPage from './pages/BlogPage';
 import CompareProduct from './pages/CompareProduct';
+import Wishlist from './pages/Wishlist';
+import Login from './pages/Login';
+import ForgotPassword from './pages/ForgotPassword';
+import SignUp from './pages/SignUp';
+import ResetPassword from './pages/ResetPassword';
 
 function App() {
   return (
@@ -20,8 +25,18 @@ function App() {
             <Route path='contact' element={<Contact />} />
             <Route path='ourstore' element={<OurStore />} />
             <Route path='blogs' element={<BlogPage />} />
-            <Route path='compare-product' element={<CompareProduct/>} />
-            
+            <Route path='compare-product' element={<CompareProduct />} />
+            <Route path='wishlist' element={<Wishlist />} />
+            <Route path='login' element={<Login />} />
+            <Route path='forgot-password' element={<ForgotPassword />} />
+            <Route path='sign-up' element={<SignUp />} />
+            <Route path='reset-password' element={<ResetPassword />} />
+
+
+
+
+
+
 
 
 
