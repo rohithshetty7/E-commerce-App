@@ -15,7 +15,7 @@ function BlogCard() {
           minus qui molestiae fugiat iusto maxime dolorum suscipit tenetur neque
           tempora nesciunt exercitationem voluptas quis, eaque laborum.
         </p>
-        <Link to="" className="button">
+        <Link to="/blogs/:id" className="button">
           Read me
         </Link>
       </div>

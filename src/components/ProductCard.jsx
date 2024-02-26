@@ -1,6 +1,7 @@
 import React from "react";
 import ReactStars from "react-rating-stars-component";
 import { Link, useLocation } from "react-router-dom";
+
 function ProductCard(props) {
   let location = useLocation();
   return (
@@ -10,7 +11,7 @@ function ProductCard(props) {
           location.pathname === "/ourstore" ? `gr-${props.grid}` : "col-3"
         }`}
       >
-        <div className="product-card position-relative">
+        <Link to=":id" className="product-card position-relative">
           <div className="wishlist-icon position-absolute">
             <Link>
               <img src="images/wish.svg" alt="dd" />
@@ -61,14 +62,14 @@ function ProductCard(props) {
               </Link>
             </div>
           </div>
-        </div>
+        </Link>
       </div>
       <div
         className={`${
           location.pathname === "/ourstore" ? `gr-${props.grid}` : "col-3"
         }`}
       >
-        <div className="product-card position-relative">
+        <Link className="product-card position-relative">
           <div className="wishlist-icon position-absolute">
             <Link>
               <img src="images/wish.svg" alt="dd" />
@@ -119,7 +120,7 @@ function ProductCard(props) {
               </Link>
             </div>
           </div>
-        </div>
+        </Link>
       </div>
     </>
   );
