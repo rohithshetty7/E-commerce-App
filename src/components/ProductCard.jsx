@@ -8,7 +8,7 @@ function ProductCard(props) {
     <>
       <div
         className={`${
-          location.pathname === "/ourstore" ? `gr-${props.grid}` : "col-3"
+          location.pathname === "/product" ? `gr-${props.grid}` : "col-3"
         }`}
       >
         <Link to=":id" className="product-card position-relative">
@@ -66,7 +66,7 @@ function ProductCard(props) {
       </div>
       <div
         className={`${
-          location.pathname === "/ourstore" ? `gr-${props.grid}` : "col-3"
+          location.pathname === "/product" ? `gr-${props.grid}` : "col-3"
         }`}
       >
         <Link className="product-card position-relative">

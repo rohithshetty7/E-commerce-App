@@ -148,7 +148,7 @@ const OurStore = () => {
                       <h5>Kids Headphones bulk 10 pack Multi colored</h5>
                       <ReactStars
                         count={5}
-                        value={"4"}
+                        value={4}
                         size={24}
                         activeColor="#ffd700"
                         edit={false}
@@ -187,9 +187,11 @@ const OurStore = () => {
                     <p className="mb-0 d-block " style={{ width: "100px" }}>
                       Sort By:
                     </p>
-                    <select name="" id="" className="form-control form-select">
+                    <select defaultValue={"DEFAULT"} name="" id="" className="form-control form-select">
+                    <option disabled value="default" >Select</option>
+
                       <option value="manual">Featured</option>
-                      <option value="best-selling" selected="selected">
+                      <option value="best-selling" >
                         Best Selling
                       </option>
                       <option value="title-ascending">
